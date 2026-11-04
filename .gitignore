@@ -1,0 +1,25 @@
+# Virtual environments
+venv/
+venv-lean/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Model weights (downloaded automatically when needed)
+*.pt
+
+# Large media and working files
+videos/*
+!videos/.gitkeep
+eval_images/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Secrets and editor files
+.streamlit/secrets.toml
+.vscode/
+.DS_Store
