@@ -3,3 +3,4 @@ numpy
 pandas
 opencv-python
 ultralytics
+opencv-python-headless
