@@ -8,8 +8,12 @@ vehicle counts by hand, so the demonstration still works.
 import importlib.util
 import os
 
-import cv2
 import streamlit as st
+
+try:
+    import cv2
+except ImportError:  # OpenCV missing: show the fallback page instead of crashing
+    cv2 = None
 
 from config import settings
 from src.detection.video_utils import (

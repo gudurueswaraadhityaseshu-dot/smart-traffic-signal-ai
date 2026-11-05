@@ -4,8 +4,12 @@ import os
 import statistics
 import tempfile
 
-import cv2
 import numpy as np
+
+try:
+    import cv2
+except ImportError:  # OpenCV missing: detection is simply unavailable
+    cv2 = None
 
 from config import settings
 from src.detection.detector import count_by_type, draw_detections

@@ -6,8 +6,12 @@ rest of the project (and the tests) work even if it is not installed.
 
 import time
 
-import cv2
 import numpy as np
+
+try:
+    import cv2
+except ImportError:  # OpenCV missing: detection is simply unavailable
+    cv2 = None
 
 from config import settings
 
