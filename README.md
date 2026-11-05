@@ -5,7 +5,7 @@ adaptive control with traditional fixed-time control on identical simulated
 traffic, gives emergency vehicles priority, and uses a pretrained YOLO model to
 count vehicles from video.
 
-**Live demo:** add your Streamlit URL here after deploying.
+**Live demo:** https://gudurueswaraadhityaseshu-dot-smart-traffic-signal-ai-app-9fdagk.streamlit.app/
 
 ## Features
 

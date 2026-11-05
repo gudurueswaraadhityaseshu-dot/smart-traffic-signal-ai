@@ -1,0 +1,3 @@
+from src.dashboard.detection_eval_view import render_detection_evaluation_page
+
+render_detection_evaluation_page()

@@ -76,6 +76,11 @@ CSS = """<style>
 .amb-w {left: 10%; top: 53%;}
 @keyframes pulse {0% {box-shadow: 0 0 0 0 rgba(220,38,38,0.8);} 100% {box-shadow: 0 0 0 14px rgba(220,38,38,0);}}
 @keyframes bounce {from {transform: translateY(0);} to {transform: translateY(-7px);}}
+.side-title {font-size: 0.72rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; color: #1d4ed8; margin: 18px 0 2px; padding-top: 10px; border-top: 1px solid #c7d2fe;}
+[data-testid="stSidebarNavLink"] {border-radius: 10px; margin: 2px 6px; font-weight: 600;}
+[data-testid="stSidebarNavLink"][aria-current="page"] {background: #2563eb;}
+[data-testid="stSidebarNavLink"][aria-current="page"] * {color: #ffffff !important;}
+
 </style>"""
 
 

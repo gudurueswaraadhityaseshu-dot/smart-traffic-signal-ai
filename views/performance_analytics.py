@@ -1,0 +1,3 @@
+from src.dashboard.evaluation_view import render_evaluation_page
+
+render_evaluation_page()
